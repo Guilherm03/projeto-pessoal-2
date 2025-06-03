@@ -1,0 +1,62 @@
+.contentBox {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f9f9f9;
+  min-height: 100vh; 
+  color: #333;
+  box-sizing: border-box;
+  font-size: 16px;
+  line-height: 1.6;
+}
+.header {
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.logo {
+  width: 80px;
+}
+
+.library {
+  margin-top: 30px;
+}
+
+.menuButton > button {
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+  margin: 5px;
+  padding: 10px 20px;
+  background: #eee;
+  border: 2px solid #9c9c9c;
+  color: #333;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 16px;
+  transition: background 0.3s, color 0.3s;
+}
+
+.menu button.active {
+  background: #007bff;
+  color: white;
+}
+
+.content {
+  margin-top: 20px;
+  text-align: left;
+  max-width: 600px;
+  margin-inline: auto;
+}
+
+.content pre {
+  background: #f0f0f0;
+  padding: 15px;
+  border-radius: 5px;
+  overflow-x: auto;
+}
